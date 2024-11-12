@@ -1,0 +1,46 @@
+/* Layout for the main movie sections */
+header, .search-filter, .featured-movies, .movie-list {
+    padding: 1rem;
+    text-align: center;
+}
+
+.search-bar {
+    padding: 0.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.filters select {
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+.featured-grid, .movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.movie-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    margin: 0.5rem 0;
+}
+
+.pagination button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+}

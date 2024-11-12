@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explore Movies</h1>
+    </header>
+
+    <!-- Search and Filter Section -->
+    <section class="search-filter">
+        <input type="text" placeholder="Search for movies..." class="search-bar">
+        <div class="filters">
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre">
+                <option value="all">All</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="thriller">Thriller</option>
+                <option value="horror">Horror</option>
+                <option value="musical">Musical</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="crime">Crime</option>
+                <option value="animation">Animation</option>
+                <option value="historical">Historical</option>
+                <option value="war">War</option>
+                <option value="western">Western</option>
+                <option value="adventure">Adventure</option>
+                <option value="romance">Romance</option>
+                <option value="documnetary">Documnetary</option>
+                <option value="mystery">Mystery</option>
+                
+            </select>
+
+            <label for="rating">Minimum Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+                
+            </select>
+        </div>
+    </section>
+
+    <!-- Featured Movies Section -->
+    <section class="featured-movies">
+        <h2>Featured Movies</h2>
+        <div class="featured-grid">
+            <!-- Each movie card in the featured section -->
+            <div class="movie-card">
+                <img src="movie-poster.jpg" alt="Movie Poster">
+                <h3>Movie Title</h3>
+                <p>Rating: ★★★★☆</p>
+                <button>More Info</button>
+            </div>
+            <!-- Add more movie cards as needed -->
+        </div>
+    </section>
+
+    <!-- Movies List Grid -->
+    <section class="movie-list">
+        <h2>All Movies</h2>
+        <div class="movies-grid">
+            <!-- Each movie card in the grid -->
+            <div class="movie-card">
+                <img src="movie-poster.jpg" alt="Movie Poster">
+                <h3>Movie Title</h3>
+                <p>Rating: ★★★★☆</p>
+                <p>Genre: Action, Adventure</p>
+                <p>Release: 2023</p>
+                <button>More Info</button>
+            </div>
+            <!-- Repeat movie cards for each movie -->
+        </div>
+    </section>
+
+    <!-- Pagination (Optional) -->
+    <div class="pagination">
+        <button>Previous</button>
+        <button>Next</button>
+    </div>
+
+</body>
+</html>

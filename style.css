@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #d84315;
+    color: white;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+}
+
+/* Button Styles */
+.button {
+    background-color: #d84315; /* Button color */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+.button:hover {
+    background-color: #ff5722; /* Change color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Basic Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #d84315;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+    color: #ff5722;
+}
+
+/* Hamburger Icon (shown on small screens, doesn't toggle) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: white;
+    height: 2px;
+    width: 25px;
+    margin: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: block; /* Menu is always visible on small screens */
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        flex-direction: column;
+        background-color: #d84315;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .nav-links li {
+        margin-bottom: 1rem;
+    }
+
+    .nav-links li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Show hamburger icon on small screens */
+    .hamburger {
+        display: flex;
+    }
+}
+
+
