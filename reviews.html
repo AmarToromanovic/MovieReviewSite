@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reviews.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film Affinity - Reviews</title>
+    </head>
+
+    <body>
+
+        <div class="review-container">
+
+        <section id="user-reviews">
+            <h2>User Reviews</h2>
+
+            <div class="review-form">
+                <h3>Write a Review</h3>
+        <form id="reviewForm">
+
+            <label for="movie-search">Search for a Movie:</label>
+            <input type="text" id="movie-search" name="movie-search" placeholder="Type the movie name..." required />
+            
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+
+                <option value="" disabled selected>Choose a Rating</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+
+            </select>
+
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" placeholder="" rows="5" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+         
+
+        </section>
+
+        <aside id="reviews-sidebar">
+        <h3>Find Reviews</h3>
+        <label for="sidebar-movie-search">Search for a Movie:</label>
+        <input type="text" id="sidebar-movie-search" name="sidebar-movie-search" placeholder="Search for a movie..." />
+        <button id="view-reviews">See Other Reviews</button>
+        <div id="other-reviews">
+            <h4>Other People's Reviews</h4>
+            <div class="review">
+                <h5>Movie: The Dark Knight</h5>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Amazing movie! The Joker's performance was incredible.</p>
+            </div>
+            <div class="review">
+                <h5>Movie: Interstellar</h5>
+                <p>⭐⭐⭐⭐</p>
+                <p>A visually stunning masterpiece with a powerful story.</p>
+            </div>
+        </div>
+    </aside>
+</div>
+            
+        
+    </body>
+
+</html>
