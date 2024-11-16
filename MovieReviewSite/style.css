@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header and Navbar */
+
 header {
     background-color: #1c1e21;
     padding: 20px;
@@ -53,7 +53,7 @@ header {
     color: #007bff;
 }
 
-/* Hamburger Menu (for small screens) */
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -67,7 +67,7 @@ header {
     margin: 4px 0;
 }
 
-/* Welcome Section */
+
 #header h1, #header h2 {
     text-align: center;
     color: #ffffff;
@@ -91,7 +91,7 @@ header p {
     color: #d1d1d1;
 }
 
-/* Section Styling */
+
 section {
     max-width: 800px;
     margin: 40px auto;
@@ -120,7 +120,7 @@ section li strong, section ol li strong {
     color: #007bff;
 }
 
-/* Footer */
+
 footer {
     background-color: #1c1e21;
     padding: 20px;
@@ -132,7 +132,7 @@ footer p {
     margin: 0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
