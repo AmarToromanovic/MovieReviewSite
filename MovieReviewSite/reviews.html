@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reviews.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film Affinity - Reviews</title>
+    </head>
+    <body>
+        <section id="user-reviews">
+            <h2>User Reviews</h2>
+
+            <div class="review-form">
+                <h3>Write a Review</h3>
+        <form id="reviewForm">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Your Name" required />
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="" disabled selected>Choose a Rating</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+            </select>
+
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" placeholder="Write your review here..." rows="5" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+         
+
+        </section>
+        
+            
+        
+    </body>
+
+</html>
