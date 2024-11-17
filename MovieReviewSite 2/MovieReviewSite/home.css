@@ -1,0 +1,16 @@
+
+body.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main.home-main {
+    flex: 1;
+}
+
+footer.home-footer {
+    background-color: #343a40;
+    color: white;
+}
